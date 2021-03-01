@@ -31,3 +31,33 @@ body {
   font-family: 'Crimson Text', serif;
   font-size: 1.5rem;
 }
+
+.link {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, .5);
+  width: 10%;
+  padding: 2px;
+  border-radius: 4px;
+  
+}
+
+a:link {
+  color: #333;
+  text-decoration: none;
+} 
+
+a:visited {
+  color: #333;
+}
+
+.link:hover {
+  transform: scale(1.1);
+}
